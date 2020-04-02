@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Osnat",
+    "price": 75.00,
+    "sku": "594-54-9502",
+    "description": "This crown is made of white and light purple flowers, for the one you love",
+    "mediaUrl": "https://res.cloudinary.com/dgmvbx86i/image/upload/v1585644761/WhatsApp_Image_2019-10-27_at_13.26.30_2_imc4fm.jpg"
+  },
+  {
+    "name": "Hila",
+    "price": 63.00,
+    "sku": "868-50-9482",
+    "description": "This crown is made of pink, red and white flowers, for the one you love",
+    "mediaUrl": "https://res.cloudinary.com/dgmvbx86i/image/upload/v1585644762/DSC02641_2_k7ihsk.jpg"
+  },
+  {
+    "name": "Noam",
+    "price": 80.00,
+    "sku": "534-20-2675",
+    "description": "This crown is made of white and light purple flowers, for the one you love",
+    "mediaUrl": "https://res.cloudinary.com/dgmvbx86i/image/upload/v1585644764/DSC02654_2_ptlewl.jpg"
+  },
+  {
+    "name": "Vered",
+    "price": 73.00,
+    "sku": "797-94-5844",
+    "description": "This crown is made of white and light purple flowers, for the one you love",
+    "mediaUrl": "https://res.cloudinary.com/dgmvbx86i/image/upload/v1585644761/WhatsApp_Image_2019-10-27_at_13.26.29_5_coc0mz.jpg"
+  },
+  {
+    "name": "Nurit",
+    "price": 71.00,
+    "sku": "803-74-3669",
+    "description": "This crown is made of white and light purple flowers, for the one you love",
+    "mediaUrl": "https://res.cloudinary.com/dgmvbx86i/image/upload/v1585644761/WhatsApp_Image_2019-10-27_at_13.26.29_4_q0xbct.jpg"
+  }
+]
