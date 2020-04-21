@@ -1,8 +1,8 @@
 import { Menu, Container, Image, Icon, Segment } from "semantic-ui-react";
 import React from "react";
-import Link from 'next/link'
-import Router, { useRouter } from 'next/router'
-import NProgress from 'nprogress'
+import Link from 'next/link';
+import Router, { useRouter } from 'next/router';
+import NProgress from 'nprogress';
 
 Router.onRouteChangeStart = () => NProgress.start();
 Router.onRouteChangeComplete = () => NProgress.done();
@@ -10,15 +10,14 @@ Router.onRouteChangeError = () => NProgress.done();
 
 function Header() {
 
-  const user=true;
+  const user=false;
   const router = useRouter();
 
   function isActive(route) {
     return route === router.pathname;
   }
   return (
-      <Segment ui inverted vertical centered aligned style={{minHeight: "350px"}}>
-        <Image src={"https://res.cloudinary.com/dgmvbx86i/image/upload/v1585661453/b4xjn85n5o5wo93ml8m3.jpg"} style={{minHeight: "300px", width:"1500px"}}/>
+      //<Segment ui inverted vertical centered aligned style={{minHeight: "350px"}}>
       <Menu fluid id={"menu"} stackable inverted >
         <Container text>
           <Link href="/">
@@ -77,7 +76,7 @@ function Header() {
               <Link href="/login">
                 <Menu.Item header active={isActive("/login")}>
                   <Icon
-                      name={"login"}
+                      name={"sign-in"}
                       size={"large"}
                   />
                   Login
@@ -94,11 +93,10 @@ function Header() {
                 </Menu.Item>
               </Link>
             </>)
-          };
+          }
 
         </Container>
       </Menu>
-      </Segment>
   );
 }
 
