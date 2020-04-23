@@ -9,7 +9,9 @@ body {
 }
 
 #menu {
-  background: var(--menuBg);
+  background: url('https://res.cloudinary.com/dgmvbx86i/image/upload/v1587655011/flowers-background-roses-eustoma-wallpaper-preview_2_krpuit.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Overrides default styled accordion styles (too much bottom padding) */
