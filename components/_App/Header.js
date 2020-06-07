@@ -19,13 +19,10 @@ function Header() {
   return (
       //<Segment ui inverted vertical centered aligned style={{minHeight: "350px"}}>
       <Segment
-          inverted
           textAlign='center'
-          style={{ minHeight: 400, padding: '1em 0em'}}
-          vertical
           id={"menu"}
       >
-        <Menu fluid stackable pointiong borderless style={{backgroundColor: 'transparent'}}>
+        <Menu fluid stackable pointiong borderless style={{backgroundColor: '#fff'}}>
           <Container text>
             <Link href="/">
               <Menu.Item header active={isActive("/")}>
@@ -60,49 +57,12 @@ function Header() {
             </Link>
             }
 
-            {user ? (<>
-                  <Link href="/account">
-                    <Menu.Item header active={isActive("/account")}>
-                      <Icon
-                          name={"heart outline"}
-                          size={"large"}
-                      />
-                      My Account
-                    </Menu.Item>
-                  </Link>
-                  <Menu.Item header>
-                    <Icon
-                        name={"sign out"}
-                        size={"large"}
-                    />
-                    Logout
-                  </Menu.Item>
-                </>)
-                :(<>
-                  <Link href="/login">
-                    <Menu.Item header active={isActive("/login")}>
-                      <Icon
-                          name={"sign-in"}
-                          size={"large"}
-                      />
-                      Login
-                    </Menu.Item>
-                  </Link>
-
-                  <Link href="/signup">
-                    <Menu.Item header active={isActive("/signup")}>
-                      <Icon
-                          name={"signup"}
-                          size={"large"}
-                      />
-                      Signup
-                    </Menu.Item>
-                  </Link>
-                </>)
-            }
-
           </Container>
         </Menu>
+            <div>
+              <h1 className={"banner-text"}>Zer Sheva</h1>
+              <h3 className={"banner-text1"}>Flower crowns.</h3>
+            </div>
       </Segment>
   );
 }
