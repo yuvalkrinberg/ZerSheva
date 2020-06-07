@@ -7,7 +7,13 @@ import baseUrl from "../utils/baseUrl";
 function Home( {products} ) {
    return (
        <>
-       <ProductList products={products} />
+          <h2 className="about-us">About us</h2>
+          <hr />
+          <p className="about-us1">
+            Our flower crowns were made to make you or your beloved happy! <br />
+            Will feet you best for a birthday party, a holiday, or any other occasion. <br />
+            just choose the one you love!</p>
+          <ProductList products={products} />
        </>);
 }
 

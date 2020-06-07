@@ -22,25 +22,25 @@ function Header() {
           textAlign='center'
           id={"menu"}
       >
-        <Menu fluid stackable pointiong borderless style={{backgroundColor: '#fff'}}>
+        <Menu className='nevbar' pointing secondary style={{backgroundColor: 'transparent', border: 'none', boxShadow: 'none', width: 'fit-content', float: 'right', height: '50px'}}>
           <Container text>
             <Link href="/">
               <Menu.Item header active={isActive("/")}>
-                <Image
-                    size="mini"
-                    src="/static/logo.svg"
-                    style={{ marginRight: '1em' }}
-                />
+                {/*<Image*/}
+                {/*    size="mini"*/}
+                {/*    src="/static/logo.svg"*/}
+                {/*    style={{ marginRight: '1em' }}*/}
+                {/*/>*/}
                 Flower Shop
               </Menu.Item>
             </Link>
 
             <Link href="/cart">
               <Menu.Item header active={isActive("/cart")}>
-                <Icon
-                    name={"cart"}
-                    size={"large"}
-                />
+                {/*<Icon*/}
+                {/*    name={"cart"}*/}
+                {/*    size={"large"}*/}
+                {/*/>*/}
                 My Cart
               </Menu.Item>
             </Link>
@@ -48,10 +48,10 @@ function Header() {
             {user &&
             <Link href="/create">
               <Menu.Item header active={isActive("/create")}>
-                <Icon
-                    name={"add square"}
-                    size={"large"}
-                />
+                {/*<Icon*/}
+                {/*    name={"add square"}*/}
+                {/*    size={"large"}*/}
+                {/*/>*/}
                 Create
               </Menu.Item>
             </Link>
@@ -62,6 +62,7 @@ function Header() {
             <div>
               <h1 className={"banner-text"}>Zer Sheva</h1>
               <h3 className={"banner-text1"}>Flower crowns.</h3>
+              <hr />
             </div>
       </Segment>
   );
